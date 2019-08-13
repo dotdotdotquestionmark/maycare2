@@ -1,0 +1,23 @@
+body, html {
+    height: 100%;
+    margin: 0 auto;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.col-md-5{
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+app-footer { 
+    position: absolute;
+    bottom: 0px;
+    width: 100%
+}

@@ -1,0 +1,77 @@
+
+button {
+
+    background: #00d9ff;
+    color: black;
+    
+}
+
+button:hover {
+
+    color: white;
+}
+
+button:active {
+   
+    background: black;
+
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    
+    display: grid;
+    grid-template-columns: 30% auto;
+
+    a {
+        color: white;
+    }
+}
+
+section {
+    width: 80%;
+    margin: 0 auto;
+    padding: 2em;
+}
+
+input.ng-touched.ng-invalid{
+    border-color: #dc3545;
+}
+ 
+div.validation-error{
+    width: 100%;
+    margin-top: .25rem;
+    font-size: 80%;
+    color: #dc3545;
+}
+
+
+.col-md-5 {
+    padding-top: 60px;
+    padding-right: 1px;
+    padding-left: 1px;
+}
+
+
+
+//that view for desktop lol
+
+@media (min-width: 48em) {
+    
+    .col-md-5 {
+        margin: 0 auto;
+    
+        
+    }
+
+    h1{
+        font-size: 20;
+    }
+
+}
+
