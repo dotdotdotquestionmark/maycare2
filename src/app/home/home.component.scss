@@ -1,10 +1,98 @@
-body{
-    background: rgba(0, 102, 255, 0.247);
+app-footer { 
+    bottom: 0px;
+    width: 100%;
+}
+
+h1 {
+
+    text-size-adjust: 60%;
+    padding-top: 300px;
+    text-align: right;
+    padding-bottom: 20px;
+    padding-right: 5%;
+    background: rgb(249,255,0);
+    background: linear-gradient(90deg, rgba(249,255,0,1) 0%, rgba(39,200,204,1) 18%, rgba(0,159,255,1) 100%);
+    animation: fade 2s; 
+}
+
+
+li {
+    list-style: none;
+    float: right;
+    margin-right: 50px;
+    margin-left: 50px;
+    padding-top: 50px;
+}
+
+app-footer{
+    
+    bottom: -350px;
+    width: 100%;
+    position: absolute;
+    
+}
+
+.buttons {
+    margin-right: 20%;
+    padding-top: 100px;
+}
+
+.mybutton{
+    width: 250px;
+    height: 80px;
+    color: black;
+    background: rgba(128, 128, 128, 0.514);
+}
+
+
+
+@media (min-width: 800px) {
+
+    app-footer{
+        bottom: 0px;
+        width: 100%;
+        
+    }
+
+
+    .mybutton{
+        width: 100px;
+        height: 100px;
+        color: black;
+        background: rgba(128, 128, 128, 0.514);
+        border-radius: 60px;
+    }
+
+    .mybutton:hover{
+        color: blue;
+        background: rgb(80, 80, 80);
+        transition: 1s;
+        height: 150px;
+        width: 150px;
+    }
+
+    li:hover{
+        margin-right: 25px;
+        margin-left: 25px;
+        transition: 1s;
+    }
+
+    .buttons {
+        margin: 0 auto;
+        padding-top: 100px;
+        margin-right: 35%;
+    }
+
 
 }
 
-app-footer { 
-    position: absolute;
-    bottom: 0px;
-    width: 100%
+
+@keyframes fade {
+    0% {
+        opacity:  0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }

@@ -1,5 +1,72 @@
 app-footer { 
-    position: absolute;
+    
     bottom: 0px;
-    width: 100%
+    width: 100%; 
 }
+
+.aboutpic {
+    max-width: 100%;
+    height: auto;
+   
+}
+
+h1 {
+    padding-top: 100px;
+    text-align: center;
+    padding-bottom: 100px;
+    color: white;
+    background: rgb(0, 81, 255);
+    animation: initialize 1s;
+}
+h2 {
+    padding-top: 60px;
+
+}
+
+p {
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 50px;
+    animation: hopup 1s;
+}
+
+@media only screen and (min-width: 800px)  {
+    p {
+        text-align: center;
+        margin-left: 20%;
+        margin-right: 20%;
+        
+    }
+
+    app-footer {
+        bottom: 0px;
+        width: 100%;
+        position: absolute;
+    }
+}
+
+@keyframes initialize {
+    0% {
+        width: 0%;
+        opacity: 0;
+    }
+
+    100% {
+        width: 100%;
+        opacity: 1;
+    }
+}
+
+@keyframes hopup {
+    0% {
+        padding-top: 500px;
+        opacity: 0;
+    }
+
+    100% {
+        padding-top: 60px;
+        opacity: 1;
+    }
+}
+

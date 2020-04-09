@@ -24,7 +24,9 @@ import { ClientsComponent } from './contact/clients/clients.component';
 import { CarouselComponent } from './facilities/carousel/carousel.component';
 import { LoadingComponent } from './loading/loading.component';
 import { FooterComponent } from './footer/footer.component';
-
+import {MatButtonModule} from '@angular/material/button';
+import {MatIconModule} from '@angular/material/icon';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -44,7 +46,10 @@ import { FooterComponent } from './footer/footer.component';
     AppRoutingModule,
     AngularFireModule.initializeApp(environment.firebaseConfig),
     AngularFirestoreModule,
-    FormsModule
+    FormsModule,
+    MatButtonModule,
+    MatIconModule,
+    BrowserAnimationsModule
   ],
   providers: [ContactService],
   bootstrap: [AppComponent]

@@ -21,3 +21,13 @@ app-footer {
     bottom: 0px;
     width: 100%
 }
+
+@media (min-width: 800px) {
+
+    app-footer{
+        bottom: 0px;
+        width: 100%;
+        
+    }
+
+}

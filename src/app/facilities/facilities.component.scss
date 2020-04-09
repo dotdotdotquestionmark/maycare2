@@ -38,8 +38,23 @@ body {
         animation: fadein 2s;    
     
 }
-  
     
+app-footer{
+    
+    bottom: 0px;
+    width: 100%;
+    
+}
+
+@media (min-width: 800px) {
+
+    app-footer{
+        bottom: 0px;
+        width: 100%;
+        
+    }
+
+}
     /*Desktop view mobile first */
     @media only screen and (min-width: 800px)  {
 
@@ -63,6 +78,7 @@ body {
         .introduction {
             margin: 0;
             align-self: auto;
+            padding-left: 200px;
         }
 
         .losaltoshome {
@@ -95,6 +111,7 @@ body {
             padding-left: 2%;
             padding-right: 2%;
         }
+        
 
     }
 }
@@ -117,7 +134,7 @@ body {
     }
 
     100% {
-        width: 80%;
+        width: 40%;
         opacity: 0;
     }
 }
