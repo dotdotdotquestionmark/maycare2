@@ -3,7 +3,7 @@ button {
 
     background: #00d9ff;
     color: black;
-    
+    font-family: 'Roboto', sans-serif;
 }
 
 button:hover {
@@ -18,7 +18,8 @@ button:active {
 }
 
 h1 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
 }
 
 .container {
@@ -41,6 +42,10 @@ section {
 
 input.ng-touched.ng-invalid{
     border-color: #dc3545;
+}
+
+input {
+    font-family: 'Roboto', sans-serif;
 }
  
 div.validation-error{

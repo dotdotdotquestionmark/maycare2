@@ -1,9 +1,9 @@
-body, html {
+body {
     height: 100%;
     margin: 0 auto;
-    font-family: 'Montserrat';
+    font-family: 'Roboto', sans-serif;
     font-size: 18px;
-    
+    padding-bottom: 280px;
 
 }
 
@@ -17,7 +17,7 @@ a {
 }
 
 app-footer { 
-    position: absolute;
+    
     bottom: 0px;
     width: 100%
 }
@@ -28,6 +28,10 @@ app-footer {
         bottom: 0px;
         width: 100%;
         
+    }
+
+    body {
+        padding-bottom: 30%;
     }
 
 }

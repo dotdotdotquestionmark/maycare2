@@ -10,6 +10,7 @@ a {
     position: fixed;
     width: 100%;
     z-index: 3;
+    font-family: 'Roboto', sans-serif;
   }
   
   .header ul {
@@ -22,7 +23,6 @@ a {
   .header li a {
     display: block;
     padding: 20px 20px;
-    
     text-decoration: none;
   }
   
@@ -36,7 +36,7 @@ a {
   .header .logo {
     display: block;
     float: left;
-    font-size: 2em;
+    font-size: 25px;
     padding: 10px 20px;
     text-decoration: none;
   }

@@ -11,7 +11,7 @@ import { AngularFirestore } from '@angular/fire/firestore';
 })
 export class ClientsComponent implements OnInit {
 
-  constructor(private service: ContactService, private firestore: AngularFirestore) { }
+  constructor(public service: ContactService, public firestore: AngularFirestore) { }
 
   ngOnInit() {
     this.resetForm();

@@ -1,18 +1,24 @@
-app-footer { 
+app-footer {
     bottom: 0px;
     width: 100%;
+    position: relative;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 400px;
 }
 
 h1 {
 
-    text-size-adjust: 60%;
-    padding-top: 300px;
-    text-align: right;
-    padding-bottom: 20px;
-    padding-right: 5%;
-    background: rgb(249,255,0);
-    background: linear-gradient(90deg, rgba(249,255,0,1) 0%, rgba(39,200,204,1) 18%, rgba(0,159,255,1) 100%);
+    padding-top: 100px;
+    text-align: left;
+    padding-left: 5px;
+    padding-bottom: 10px;
+    background: #00d9ff;
     animation: fade 2s; 
+    font-size: 30px;
+
 }
 
 
@@ -24,54 +30,74 @@ li {
     padding-top: 50px;
 }
 
-app-footer{
-    
-    bottom: -350px;
-    width: 100%;
-    position: absolute;
-    
-}
-
 .buttons {
-    margin-right: 20%;
-    padding-top: 100px;
+    padding-top: 50px;
 }
 
-.mybutton{
+.mybutton {
     width: 250px;
     height: 80px;
     color: black;
     background: rgba(128, 128, 128, 0.514);
 }
 
+img {
+    max-width: 100%;
+    padding-bottom: 10px;
+}
+
+.textgroup {
+    padding-top: 10px;
+}
+
+.text {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.text1 {
+    padding: 10px;
+}
 
 
 @media (min-width: 800px) {
 
-    app-footer{
+    app-footer {
         bottom: 0px;
         width: 100%;
         
     }
 
+    h1 {
+        font-size: 50px;
+        padding-top: 300px;
+        text-align: right;
+        padding-bottom: 20px;
+        padding-right: 6%;
+        background: #00d9ff;
+        animation: fade 2s; 
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2)
+    }
 
-    .mybutton{
+
+    .mybutton {
         width: 100px;
         height: 100px;
         color: black;
         background: rgba(128, 128, 128, 0.514);
         border-radius: 60px;
+        
     }
 
-    .mybutton:hover{
-        color: blue;
+    .mybutton:hover {
+        color: #00d9ff;;
         background: rgb(80, 80, 80);
         transition: 1s;
         height: 150px;
         width: 150px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2)
     }
 
-    li:hover{
+    li:hover {
         margin-right: 25px;
         margin-left: 25px;
         transition: 1s;
@@ -79,10 +105,42 @@ app-footer{
 
     .buttons {
         margin: 0 auto;
-        padding-top: 100px;
+        padding-top: 0px;
         margin-right: 35%;
     }
 
+    body {
+        padding-bottom: 300px;
+    }
+
+    .imagetext {
+        display: inline-block;
+    }
+
+    .text {
+        width: 487.5px;
+        text-align: left;
+        padding-left: 25px;
+    }
+
+    .text1 {
+        width: 487.5px;
+        text-align: left;
+        padding-right: 25px;
+    }
+
+    .textarea {
+        text-align: center;
+    }
+
+    
+
+    img {
+        max-width: 500px;
+        max-height: 500px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        padding-bottom: 0px;
+    }
 
 }
 
